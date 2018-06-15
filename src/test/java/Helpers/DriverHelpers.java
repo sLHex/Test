@@ -4,9 +4,7 @@ import cucumber.api.java.After;
 import cucumber.api.java.Before;
 import cucumber.api.java.en.Given;
 import cucumber.api.java.en.Then;
-
 import org.junit.Assert;
-
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
@@ -23,7 +21,7 @@ public class DriverHelpers {
     @Before
     public void beforeScenario() {
         if (driver == null) {
-            System.setProperty("webdriver.chrome.driver","C:\\Users\\Flux\\Documents\\Code\\chromedriver.exe");
+            System.setProperty("webdriver.chrome.driver", "/Users/admim/Downloads/chromedriver");
             driver = new ChromeDriver();
         }
     }

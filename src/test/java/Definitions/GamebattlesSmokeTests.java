@@ -1,12 +1,11 @@
 package Definitions;
-
+import cucumber.api.PendingException;
 import cucumber.api.java.en.Then;
-
 import Helpers.DriverHelpers;
 
-public class GamebattlesTests {
+public class GamebattlesSmokeTests {
 
-    @Then("^I click on Login$")
+    @Then("^I click on Login on the homepage of gamebattles$")
     public void iClickOnLogin() {
         DriverHelpers.clickOnElement("//*[@id=\"mlg-header-menu\"]/div[3]/a/div/div");
     }
@@ -21,12 +20,13 @@ public class GamebattlesTests {
         DriverHelpers.enterText("//*[@id=\"login_password\"]", "123456789");
     }
 
-    @Then("^I click on log-in$")
+    @Then("^I click log-in on the gamebattles login page$")
     public void iClickOnLogIn() {
         DriverHelpers.clickOnElement("//*[@id=\"login_button\"]");
     }
 
-}
+    }
+
 
 
 

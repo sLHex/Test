@@ -1,9 +1,7 @@
-package Definitions;
+package Temp2;
 
 import Helpers.DriverHelpers;
-import cucumber.api.PendingException;
 import cucumber.api.java.en.Then;
-import org.openqa.selenium.WebDriver;
 
 public class OutlookSmokeTests {
     @Then("^I click on the sign in box$")
@@ -18,9 +16,16 @@ public class OutlookSmokeTests {
     }
 
     @Then("^I click on the next option on the outlook sign-in page$")
-    public void iClickOnTheNextOptionOnTheOutlookSignInPage(){DriverHelpers.clickOnElement("//*[@id=\"idSIButton9\"]");
+    public void iClickOnTheNextOptionOnTheOutlookSignInPage(){
+        DriverHelpers.clickOnElement("//*[@id=\"idSIButton9\"]");
     }
+
+
+
 }
+
+
+
 
 
 

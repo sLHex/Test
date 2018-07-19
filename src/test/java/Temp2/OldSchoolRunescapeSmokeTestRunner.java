@@ -1,6 +1,8 @@
+package Temp2;
+
 import cucumber.api.CucumberOptions;
-        import cucumber.api.junit.Cucumber;
-        import org.junit.runner.RunWith;
+import cucumber.api.junit.Cucumber;
+import org.junit.runner.RunWith;
 
 /**
  * This class is in charge of running the tests and setting up how the report should be formatted
@@ -8,9 +10,9 @@ import cucumber.api.CucumberOptions;
  */
 @RunWith(Cucumber.class)
 @CucumberOptions(
-        features = {"src/test/resources/GuitarFlashSmokeTest.feature"},
+        features = {"src/test/resources/OldSchoolRunescapeSmokeTest.feature"},
         plugin = { "pretty", "html:target/cucumber-reports" }
 )
-public class GuitarFlashSmokeTestRunner {
+public class OldSchoolRunescapeSmokeTestRunner {
 
 }

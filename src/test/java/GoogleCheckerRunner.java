@@ -8,10 +8,10 @@ import org.junit.runner.RunWith;
  */
 @RunWith(Cucumber.class)
 @CucumberOptions(
-        features = {"src/test/resources/GameBattlesSmokeTest.feature"},
+        features = {"src/test/resources/GoogleSearch.feature"},
         plugin = { "pretty", "html:target/cucumber-reports" }
 )
-public class GamebattlesSmokeTestRunner {
+public class GoogleCheckerRunner {
 
 }
 

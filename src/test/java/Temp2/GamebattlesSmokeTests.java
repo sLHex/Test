@@ -1,5 +1,4 @@
-package Definitions;
-import cucumber.api.PendingException;
+package Temp2;
 import cucumber.api.java.en.Then;
 import Helpers.DriverHelpers;
 
@@ -25,7 +24,13 @@ public class GamebattlesSmokeTests {
         DriverHelpers.clickOnElement("//*[@id=\"login_button\"]");
     }
 
+    @Then("^I confirm the login has failed as the inputs were test credentials$")
+    public void iConfirmTheLoginHasFailedAsTheInputsWereTestCredentials() {
+        DriverHelpers.checkForElement("//*[@id=\"login_wrapper\"]/div[3]");
+
     }
+
+}
 
 
 

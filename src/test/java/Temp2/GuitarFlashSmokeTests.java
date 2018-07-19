@@ -1,7 +1,5 @@
-package Definitions;
-
+package Temp2;
 import Helpers.DriverHelpers;
-import cucumber.api.PendingException;
 import cucumber.api.java.en.Then;
 
 public class GuitarFlashSmokeTests {

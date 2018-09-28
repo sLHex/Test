@@ -1,5 +1,3 @@
-package Temp2;
-
 import cucumber.api.CucumberOptions;
 import cucumber.api.junit.Cucumber;
 import org.junit.runner.RunWith;
@@ -10,9 +8,9 @@ import org.junit.runner.RunWith;
  */
 @RunWith(Cucumber.class)
 @CucumberOptions(
-        features = {"src/test/resources/OldSchoolRunescapeSmokeTest.feature"},
+        features = {"src/test/resources/PopMusicSmokeTest.feature"},
         plugin = { "pretty", "html:target/cucumber-reports" }
 )
-public class OldSchoolRunescapeSmokeTestRunner {
+public class PopMusicSmokeRunner {
 
 }
